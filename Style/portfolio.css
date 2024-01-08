@@ -1,84 +1,98 @@
 /* common shared styles*/
 
-body{
-    font-family: 'Open Sans', sans-serif;   
+body {
+    font-family: 'Open Sans', sans-serif;
 }
+
 /* nav related style*/
 
 nav {
-display: flex;
-justify-content: space-between;
-align-items: center;
-margin: 0 200px;
-}
-.nav-title{
-    color: #181818;
-    font-size: 45px;
-    font-weight: 800;   
-}
-.text-primary{
-    color: #FD6E0A;
-}
-.btn-primary{
-  border-radius: 5px;  
-  background-color: #FD6E0A;
-  border: 0;
-  color: white;
-  font-size: 20px;
-  font-weight: 700;
-  padding: 15px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
 }
 
-.section-title{
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+.section-title {
     color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
 }
-.section-description{
-color: #474747;
-text-align: center;
-font-size: 18px;
+
+.section-description {
+    color: #474747;
+    text-align: center;
+    font-size: 18px;
 
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
-list-style: none;
-margin-right: 50px;
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
 }
+
 /*header related style*/
-.header{
+.header {
     background-color: #FFF8F3;
     background-image: url('../resources/Rectangle\ 8.png');
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-.banner{
- padding: 30px 3opx 0px 150ppx; 
- display: flex; 
- align-items: center ;
- justify-content: space-between;
+
+.banner {
+    padding: 30px 3opx 0px 150ppx;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.banner-content{
+
+.banner-content {
     max-width: 500px;
 }
-.banner .profile-pic{
+
+.banner .profile-pic {
     width: 500px;
-    
+
 }
-.banner-greeting{
+
+.banner-greeting {
     font-size: 45px;
     color: #474747;
     margin: 0px;
 }
-.banne-title{
+
+.banne-title {
     font-size: 85px;
     font-weight: 700;
     margin-top: 5px;
@@ -86,15 +100,53 @@ nav a{
 }
 
 /*main section styles*/
-main{
+main {
     max-width: 1140 px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
+
 /*about section style*/
-.about{
+.about {
     padding: 130;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0px;
 
 }
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+/* skills related styles */
+
+
+#What-I-Do-description {
+    padding: 30px 150px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+
+}
+
+.skills {
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skills-description {
+    color: #757575;
+}
+/* 5-6 vid 5.49 min */
